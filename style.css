@@ -18,8 +18,8 @@ p {
 h1 {
     margin: 0 auto;
     text-align: center;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 23px;
+    line-height: 20px;
     max-width: 600px;
   }
   h2 {
@@ -47,15 +47,70 @@ h1 {
 
   img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: auto;
+    mix-blend-mode: multiply;
   }
-  .initial: only-of-type{
-      
+  .figcenter img {
+    display: block;
+    margin: auto;
+    width: auto;
+    mix-blend-mode: multiply;
   }
 
-  p + p {
-    text-indent: 2em;
-    
-  }
+
+
+p:nth-of-type(2n) {
+  padding-left: 30vw;
+  margin: 10px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 600px;
+}
+p:nth-of-type(3n)  {
+  padding-left: 10vw;
+  margin: 10px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 600px;
+}
+p + p {
+  text-indent: 2em;
+}
+pre {
+display: none;
+}
+.center {
+text-align: center;
+font-size: 15px;
+max-width: 40vw;
+}
+.publisher {
+font-size: 12px;
+text-align: center;
+max-width: 40vw;
+
+}
+.smcap {
+font-size: 12px;
+text-align: center;
+max-width: 40vw;
+
+
+}
+.copyright {
+font-size: 10px;
+text-align: center;
+max-width: 40vw;s
+
+}
+.initial {
+  display: none;
+}
+.rightalign {
+  color: black;
+}
+
+
