@@ -1,15 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightblue;
+    background-color: #D5F5FF;
     font-family: 'Domine' ;
     
+}
+.figcenter img {
+  display: block;
+  margin: auto;
+  width: auto;
+  mix-blend-mode: multiply;
 }
 
 p {
     margin: 0 auto;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
     max-width: 600px;
     
@@ -21,10 +27,11 @@ h1 {
     font-size: 23px;
     line-height: 20px;
     max-width: 600px;
+
   }
   h2 {
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     line-height: 30px;
     max-width: 600px;
@@ -47,31 +54,23 @@ h1 {
 
   img {
     display: block;
-    margin: auto;
+    margin: 1vw;
     width: auto;
     mix-blend-mode: multiply;
   }
-  .figcenter img {
-    display: block;
-    margin: auto;
-    width: auto;
-    mix-blend-mode: multiply;
-  }
-
-
 
 p:nth-of-type(2n) {
   padding-left: 30vw;
-  margin: 10px;
-  text-align: left;
+  margin: 1vw;
+  text-align: center;
   font-size: 20px;
   line-height: 30px;
-  max-width: 600px;
+  
 }
 p:nth-of-type(3n)  {
   padding-left: 10vw;
-  margin: 10px;
-  text-align: left;
+  margin: 1vw;
+  text-align: center;
   font-size: 20px;
   line-height: 30px;
   max-width: 600px;
@@ -85,32 +84,51 @@ display: none;
 .center {
 text-align: center;
 font-size: 15px;
-max-width: 40vw;
+max-width: 40px;
+padding-left: 10px;
+display: none;
 }
 .publisher {
 font-size: 12px;
 text-align: center;
 max-width: 40vw;
+padding-left: 12vw;
 
 }
 .smcap {
-font-size: 12px;
+font-size: 20px;
 text-align: center;
-max-width: 40vw;
+max-width: 30vw;
+font-style: italic;
 
 
 }
 .copyright {
-font-size: 10px;
-text-align: center;
-max-width: 40vw;s
+display: none;
 
 }
-.initial {
+.figcenter + p {
+  font-size: 18px;
+}
+.pagenum {
   display: none;
 }
-.rightalign {
-  color: black;
+.initial {
+  padding-left: 11vw;
+  
 }
+.initial ~ p {
+  color: #404541;
+}
+.figcenter > .firstwords {
+  font-style: bold;
+}
+
+
+p:first-child {
+  font-style: bold;
+}
+
+
 
 
